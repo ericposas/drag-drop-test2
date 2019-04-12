@@ -1,0 +1,27 @@
+html
+,body{
+  margin: 0;
+  font-family: 'Ubuntu';
+}
+
+.draggable-component{
+  color: #FFF;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  background-color: red;
+}
+
+#drop-zone{
+  top: 0;
+  right: 0;
+  color: #999;
+  width: 100px;
+  height: 100px;
+  display: block;
+  position: absolute;
+  border: 1px dashed #999;
+  line-height: 100px;
+  text-align: center;
+}
